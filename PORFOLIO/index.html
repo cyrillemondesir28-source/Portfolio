@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondesir_Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="cursor-glow"></div>
+<header>
+  <nav class="wrap">
+    <div class="brand"><span class="brand-dot"></span>Mondesir.dev</div>
+    <div class="navlinks mono" id="navlinks">
+      <a href="#apropos">à propos</a>
+      <a href="#competences">compétences</a>
+      <a href="#projets">projets</a>
+      <a href="#contact">contact</a>
+    </div>
+    <button class="burger" id="burger" aria-label="Ouvrir le menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+    <section class="hero">
+        <div class="wrap hero-grid">
+            <div>
+                <div class="kicker mono">// Développeur web & logiciel - côte d'ivoire,Abidjan</div>
+                <h1>Gbaklo Aude Cyrille Mondesir</h1>
+                <div class="role">Je conçois des systèmes de gestion qui tiennent la route.</div>
+                <p class="lead">Je suis un étudiant en informatique et passionné par le développement numérique. Je conçois et développe des sites web et applications, en utilisant des technologies comme HTML, CSS, JavaScript, PHP et Laravel. Mon objectif est de créer des solutions modernes, pratiques et adaptées aux besoins des utilisateurs.</p>
+                <div class="cta-row">
+                    <a href="#projets" class="btn btn-primary">Voir les projets</a>
+                    <a href="#contact" class="btn btn-ghost">Me contacter</a>
+                </div>
+            </div>
+
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <span class="mono">~/Mondesir — whoami</span>
+                    <span class="status-dot"></span>
+                </div>
+                <div class="terminal-body">
+                    <div class="line"><span class="prompt">$</span> Whoami</div>
+                    <div class="line val">Mondesir</div>
+                    <div class="line"><span class="prompt">$</span> stack --list</div>
+                    <div class="line val">PHP · MySQL · JavaScript</div>
+                    <div class="line"><span class="prompt">$</span> projets --status<span class="caret"></span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="apropos">
+        <div class="wrap about-grid">
+            <div>
+                <div class="path mono">/ à propos</div>
+                <h2>Ce qui m'anime</h2>
+                <div class="about-text">
+                    <p>Au cours de ma formation, j’ai développé des compétences en développement web et programmation, notamment en HTML, CSS, JavaScript, PHP et Python. Je travaille également sur des projets personnels tels que la création de sites vitrines, plateformes e-commerce et applications, avec l’objectif de mettre en pratique mes connaissances et de progresser continuellement dans le domaine de l’informatique.</p>
+                    <p>Dans ma manière de travailler, je privilégie la rigueur, la créativité et l’apprentissage continu. Je commence par bien comprendre les besoins et les objectifs d’un projet, puis je recherche des solutions adaptées avant de passer à la réalisation. Je prends également le temps de tester, corriger et améliorer mon travail afin de proposer des solutions fonctionnelles, modernes et de qualité.</p>
+                </div>
+            </div>
+            <div class="stat-panel mono">
+                <div class="stat-row"><span class="label">applications construites</span><span class="value">06</span></div>
+                <div class="stat-row"><span class="label">stack principal</span><span class="value">PHP/MySQL</span></div>
+                <div class="stat-row"><span class="label">base</span><span class="value">Abidjan, CI</span></div>
+            </div>
+        </div>
+    </section>
+    <section id="competences">
+        <div class="wrap">
+            <div class="path mono">/competences</div>
+            <h2>Modules maîtrisés</h2>
+            <div class="skills-grid">
+                <div class="skill-cell">
+                    <div class="tag">backend</div>
+                    <h3>PHP &amp; MySQL</h3>
+                    <p>Sites et back-offices dynamiques, requêtes sécurisées.</p>
+                </div>
+                <div class="skill-cell">
+                    <div class="tag">frontend</div>
+                    <h3>HTML / CSS / JS</h3>
+                    <p>Interfaces responsives et interactives.</p>
+                </div>
+                <div class="skill-cell">
+                    <div class="tag">Certification</div>
+                    <h3>EXCEL</h3>
+                    <p>Je possède des compétences en Microsoft Excel.</p>
+                </div>
+                <!-- répète .skill-cell pour chaque compétence -->
+
+            </div>
+        </div>
+    </section>
+<section id="projets">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="path mono">/projets</div>
+        <h2>Projets récents</h2>
+      </div>
+      <div class="count mono">6 systèmes</div>
+    </div>
+ 
+    <div class="project-list">
+      <div class="project">
+        <div class="project-name">MOHOTEL<span class="mono">gestion hôtelière</span></div>
+        <div class="project-desc">
+          Application de gestion d'hôtel avec tableau de bord, grille des chambres, réservations et géolocalisation GPS en temps réel via Leaflet.js.
+          <div class="stack"><span>PHP</span><span>MySQL</span><span>Leaflet.js</span></div>
+        </div>
+        <div class="project-status"><span class="dot wip"></span>en développement</div>
+      </div>
+ 
+      <div class="project">
+        <div class="project-name">Pont Péage<span class="mono">système de péage</span></div>
+        <div class="project-desc">
+          Back-office web pour un péage routier couplé à une application de guichet en VB.NET pour la recherche de véhicules et l'enregistrement des paiements.
+          <div class="stack"><span>PHP</span><span>MySQL</span><span>VB.NET</span></div>
+        </div>
+        <div class="project-status"><span class="dot wip"></span>en développement</div>
+      </div>
+ 
+      <div class="project">
+        <div class="project-name">TIEHI FOOD<span class="mono">restaurant en ligne</span></div>
+        <div class="project-desc">
+          Site de restaurant avec catalogue de plats ivoiriens, abonnements, espace administrateur et envoi automatique des commandes par email.
+          <div class="stack"><span>PHP</span><span>MySQL</span><span>PHPMailer</span></div>
+        </div>
+        <div class="project-status"><span class="dot ok"></span>en ligne</div>
+      </div>
+ 
+      <div class="project">
+        <div class="project-name">MONELE<span class="mono">gestion d'élevage</span></div>
+        <div class="project-desc">
+          Application pour éleveurs : suivi du cheptel, stocks de nourriture et médicaments, alertes de naissance et tableaux de pertes/profits mensuels.
+          <div class="stack"><span>PHP</span><span>MySQL</span></div>
+        </div>
+        <div class="project-status"><span class="dot wip"></span>en développement</div>
+      </div>
+ 
+      <div class="project">
+        <div class="project-name">CinéStream<span class="mono">plateforme de streaming</span></div>
+        <div class="project-desc">
+          Plateforme façon Netflix diffusant des films du domaine public, avec catalogue et fiches détaillées par film.
+          <div class="stack"><span>JavaScript</span><span>Archive.org API</span></div>
+        </div>
+        <div class="project-status"><span class="dot ok"></span>en ligne</div>
+      </div>
+ 
+      <div class="project">
+        <div class="project-name">Loi en Main<span class="mono">jurisprudence francophone</span></div>
+        <div class="project-desc">
+          Cahier des charges d'une plateforme de recherche de jurisprudence (France, Côte d'Ivoire, OHADA) avec résumés automatiques et alertes.
+          <div class="stack"><span>Django/Node</span><span>PostgreSQL</span></div>
+        </div>
+        <div class="project-status"><span class="dot wip"></span>cahier des charges</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+    <div class="wrap">
+        <div class="contact-panel">
+            <div>
+                <h2>Discutons de votre prochain projet.</h2>
+                <p>Que ce soit une application de gestion, un site avec back-office, ou une idée à cadrer, je suis disponible pour en parler.</p>
+            </div>
+            <div class="contact-links mono">
+                <a href="mailto:Cyrillemondesir28@gmail.com">Email <span>Cyrillemondesir28@gmail.com</span></a>
+                <a href="https://github.com/">GitHub <span>cyrillemondesir28-source</span></a>
+                <a href="https://m.linkedin.com">LinKedIn <span>Aude Cyrille Mondesir</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="wrap mono">
+    <span>© 2026 Gbaklo Aude Cyrille Mondesir</span>
+    <span>Abidjan, Côte d'ivoire</span>
+    </div>
+</footer>
+<script>
+  const burger = document.getElementById('burger');
+  const navlinks = document.getElementById('navlinks');
+  burger.addEventListener('click', () => {
+    navlinks.classList.toggle('open');
+  });
+  navlinks.querySelectorAll('a').forEach(a => {
+    a.addEventListener('click', () => navlinks.classList.remove('open'));
+  });
+
+  document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+  });
+  
+
+
+  const glow = document.getElementById('cursor-glow');
+  document.addEventListener('mousemove', (e) => {
+    glow.style.left = e.clientX + 'px';
+    glow.style.top = e.clientY + 'px';
+  });
+
+</script>
+</body>
+</html>
